@@ -51,7 +51,7 @@ const BarrageDemo = () => {
       bc555a83: 'male silent female tears',
       '4d14b3e0': 'Tired of not loving',
       '448f995e': 'Ye Qing knot-',
-      '75ca4f92': 'random--',
+      '75ca4f92': 'random',
       '84aa6bce': 'Basic usage',
       '3d9b2794': 'add randomly',
     },

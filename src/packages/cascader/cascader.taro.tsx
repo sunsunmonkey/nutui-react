@@ -360,7 +360,7 @@ const InternalCascader: ForwardRefRenderFunction<
     )
 
     const classesTitle = classNames({
-      [`${classPrefix2}__title`]: true,
+      [`${classPrefix2}-title`]: true,
     })
 
     const renderIcon = () => {
@@ -370,7 +370,7 @@ const InternalCascader: ForwardRefRenderFunction<
         }
         return (
           <Checklist
-            className={`${checked ? `${classPrefix}__icon-check` : ''}`}
+            className={`${checked ? `${classPrefix}-icon-check` : ''}`}
           />
         )
       }
@@ -388,10 +388,7 @@ const InternalCascader: ForwardRefRenderFunction<
       >
         <div className={classesTitle}>{node.text}</div>
         {node.loading ? (
-          <Loading
-            color="#969799"
-            className="nut-cascader-item__icon-loading"
-          />
+          <Loading color="#969799" className="nut-cascader-item-icon-loading" />
         ) : (
           renderIcon()
         )}
@@ -411,14 +408,12 @@ const InternalCascader: ForwardRefRenderFunction<
                   setTabvalue(pane.paneKey)
                   state.tabsCursor = index
                 }}
-                className={`nut-tabs__titles-item ${
-                  tabvalue === pane.paneKey
-                    ? 'nut-tabs__titles-item--active'
-                    : ''
+                className={`nut-tabs-titles-item ${
+                  tabvalue === pane.paneKey ? 'nut-tabs-titles-item-active' : ''
                 }`}
                 key={pane.paneKey}
               >
-                <span className="nut-tabs__titles-item__text">
+                <span className="nut-tabs-titles-item-text">
                   {!state.initLoading &&
                     state.panes.length &&
                     pane?.selectedNode?.text}
@@ -428,7 +423,7 @@ const InternalCascader: ForwardRefRenderFunction<
                     '请选择'}
                   {!(!state.initLoading && state.panes.length) && 'Loading...'}
                 </span>
-                <span className="nut-tabs__titles-item__line" />
+                <span className="nut-tabs-titles-item-line" />
               </div>
             ))
           }}

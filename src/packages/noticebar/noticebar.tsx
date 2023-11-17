@@ -461,7 +461,7 @@ export const NoticeBar: FunctionComponent<
         >
           {leftIcon ? <div className="left-icon">{leftIcon}</div> : null}
           {children ? (
-            <div className="nut-noticebar__inner" ref={innerRef}>
+            <div className="nut-noticebar-inner" ref={innerRef}>
               {scrollList.current.map((item: string, index: number) => {
                 return (
                   <div

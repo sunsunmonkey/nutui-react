@@ -130,7 +130,7 @@ export default AnimateDemo
 | 属性 | 说明 | 类型 | 默认值 |
 | --- | --- | --- | --- |
 | type | 动画类型，见下方type值说明 | `AnimateType` | `shake` |
-| action | 触发方式，'initial'--初始化执行; 'click'--点击执行 | `initial` \| `click` | `initial` |
+| action | 触发方式，'initial'，初始化执行; 'click'，点击执行 | `initial` \| `click` | `initial` |
 | loop | 是否循环执行。true-循环执行;false-执行一次 | `boolean` | `false` |
 | onClick | 点击元素时触发 | `event: Event` | `-` |
 

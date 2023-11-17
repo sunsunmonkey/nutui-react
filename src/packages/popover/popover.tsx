@@ -183,9 +183,8 @@ export const Popover: FunctionComponent<
 
   const popoverArrow = () => {
     const prefixCls = 'nut-popover-arrow'
-    const loca = location
-    const direction = loca.split('-')[0]
-    return `${prefixCls} ${prefixCls}-${direction} ${prefixCls}--${loca}`
+    const direction = location.split('-')[0]
+    return `${prefixCls} ${prefixCls}-${direction} ${prefixCls}-${location}`
   }
 
   const getRootPosition = () => {
@@ -304,7 +303,7 @@ export const Popover: FunctionComponent<
       )}
       <div className={classes} style={getRootPosition()}>
         <Popup
-          className={`nut-popover-content nut-popover-content--${location}`}
+          className={`nut-popover-content nut-popover-content-${location}`}
           visible={showPopup}
           overlay={overlay}
           position="default"

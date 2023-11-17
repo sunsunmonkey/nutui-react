@@ -56,11 +56,11 @@ export const Card: FunctionComponent<
   const classPrefix = 'nut-card'
   return (
     <div className={classNames(classPrefix, className)} style={style} {...rest}>
-      <div className={`${classPrefix}__left`}>
+      <div className={`${classPrefix}-left`}>
         <img src={src} alt="" />
       </div>
-      <div className={`${classPrefix}__right`}>
-        <div className={`${classPrefix}__right-title`}>{title}</div>
+      <div className={`${classPrefix}-right`}>
+        <div className={`${classPrefix}-right-title`}>{title}</div>
         {description}
         <div className={`${classPrefix}right-price`}>
           <Price size="normal" price={price} />

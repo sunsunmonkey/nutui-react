@@ -5,12 +5,12 @@
   width: 100%;
   font-size: $cascader-font-size;
 
-  .nut-tabs__titles {
+  .nut-tabs-titles {
     padding: $cascader-tabs-item-padding;
     background: $color-background-overlay;
   }
 
-  .nut-tabs__titles-item {
+  .nut-tabs-titles-item {
     flex: initial;
     min-width: auto;
     width: auto;
@@ -54,14 +54,14 @@
         color: $cascader-item-active-color;
       }
 
-      .nut-cascader-item__icon-check {
+      .nut-cascader-item-icon-check {
         visibility: visible;
         color: inherit;
       }
     }
   }
 
-  &-item__title {
+  &-item-title {
     flex: 1;
   }
 

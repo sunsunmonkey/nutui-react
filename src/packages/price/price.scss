@@ -3,7 +3,7 @@
   display: inline;
   color: $color-primary;
 
-  &--line {
+  &-line {
     div {
       text-decoration: line-through;
       font-size: $price-line-font-size !important;
@@ -11,13 +11,13 @@
     }
   }
 
-  &__symbol,
-  &__integer,
-  &__decimal {
+  &-symbol,
+  &-integer,
+  &-decimal {
     display: inline-block;
   }
 
-  &__symbol {
+  &-symbol {
     font-size: $price-symbol-medium-size;
     padding-right: $price-symbol-padding-right;
 
@@ -30,7 +30,7 @@
     }
   }
 
-  &__integer {
+  &-integer {
     font-size: $price-integer-medium-size;
 
     &-large {
@@ -42,7 +42,7 @@
     }
   }
 
-  &__decimal {
+  &-decimal {
     font-size: $price-decimal-medium-size;
 
     &-large {

@@ -569,7 +569,7 @@ const FormDemo = () => {
                       padding: 0,
                       '--nutui-cell-divider-border-bottom': '0',
                     }}
-                    className="nutui-cell--clickable"
+                    className="nutui-cell-clickable"
                     title={
                       value.length
                         ? pickerOptions.filter((po) => po.value === value[0])[0]

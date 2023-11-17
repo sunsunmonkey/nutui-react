@@ -9,21 +9,21 @@ exports[`should match snapshot 1`] = `
       class="nut-collapse-item"
     >
       <div
-        class="nut-collapse-item__header"
+        class="nut-collapse-item-header"
       >
         <div
-          class="nut-collapse-item__title"
+          class="nut-collapse-item-title"
         >
           标题1
         </div>
         <div
-          class="nut-collapse-item__extra"
+          class="nut-collapse-item-extra"
         />
         <div
-          class="nut-collapse-item__icon-box"
+          class="nut-collapse-item-icon-box"
         >
           <div
-            class="nut-collapse-item__icon"
+            class="nut-collapse-item-icon"
             style="transform: translateY(-50%) rotate(180deg);"
           >
             <svg
@@ -34,7 +34,7 @@ exports[`should match snapshot 1`] = `
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M128 349.867C93.867 332.8 34.133 341.333 8.533 384-8.533 418.133 0 477.867 42.667 503.467 179.2 588.8 315.733 665.6 443.733 750.933c42.667 25.6 93.867 25.6 136.534 0C716.8 665.6 853.333 588.8 981.333 503.467c42.667-25.6 51.2-76.8 25.6-119.467s-76.8-51.2-119.466-25.6C768 435.2 640 512 512 588.8 384 512 256 435.2 128 349.867"
+                d="M158.17 289.83a42.67 42.67 0 1 0-60.34 60.34l384 384a42.67 42.67 0 0 0 60.36 0l384-384a42.67 42.67 0 1 0-60.36-60.34L512 643.67 158.17 289.83z"
                 fill="currentColor"
                 fill-opacity="0.9"
               />
@@ -43,10 +43,10 @@ exports[`should match snapshot 1`] = `
         </div>
       </div>
       <div
-        class="nut-collapse-item__content"
+        class="nut-collapse-item-content"
       >
         <div
-          class="nut-collapse-item__content-text"
+          class="nut-collapse-item-content-text"
         >
           京东“厂直优品计划”首推“政府优品馆” 3年覆盖80%镇级政府
         </div>
@@ -56,21 +56,21 @@ exports[`should match snapshot 1`] = `
       class="nut-collapse-item"
     >
       <div
-        class="nut-collapse-item__header"
+        class="nut-collapse-item-header"
       >
         <div
-          class="nut-collapse-item__title"
+          class="nut-collapse-item-title"
         >
           标题2
         </div>
         <div
-          class="nut-collapse-item__extra"
+          class="nut-collapse-item-extra"
         />
         <div
-          class="nut-collapse-item__icon-box"
+          class="nut-collapse-item-icon-box"
         >
           <div
-            class="nut-collapse-item__icon"
+            class="nut-collapse-item-icon"
             style="transform: translateY(-50%) rotate(180deg);"
           >
             <svg
@@ -81,7 +81,7 @@ exports[`should match snapshot 1`] = `
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M128 349.867C93.867 332.8 34.133 341.333 8.533 384-8.533 418.133 0 477.867 42.667 503.467 179.2 588.8 315.733 665.6 443.733 750.933c42.667 25.6 93.867 25.6 136.534 0C716.8 665.6 853.333 588.8 981.333 503.467c42.667-25.6 51.2-76.8 25.6-119.467s-76.8-51.2-119.466-25.6C768 435.2 640 512 512 588.8 384 512 256 435.2 128 349.867"
+                d="M158.17 289.83a42.67 42.67 0 1 0-60.34 60.34l384 384a42.67 42.67 0 0 0 60.36 0l384-384a42.67 42.67 0 1 0-60.36-60.34L512 643.67 158.17 289.83z"
                 fill="currentColor"
                 fill-opacity="0.9"
               />
@@ -90,10 +90,10 @@ exports[`should match snapshot 1`] = `
         </div>
       </div>
       <div
-        class="nut-collapse-item__content"
+        class="nut-collapse-item-content"
       >
         <div
-          class="nut-collapse-item__content-text"
+          class="nut-collapse-item-content-text"
         >
           京东“厂直优品计划”首推“政府优品馆” 3年覆盖80%镇级政府
         </div>
@@ -103,21 +103,21 @@ exports[`should match snapshot 1`] = `
       class="nut-collapse-item"
     >
       <div
-        class="nut-collapse-item__header disabled"
+        class="nut-collapse-item-header disabled"
       >
         <div
-          class="nut-collapse-item__title"
+          class="nut-collapse-item-title"
         >
           标题3
         </div>
         <div
-          class="nut-collapse-item__extra"
+          class="nut-collapse-item-extra"
         />
         <div
-          class="nut-collapse-item__icon-box"
+          class="nut-collapse-item-icon-box"
         >
           <div
-            class="nut-collapse-item__icon"
+            class="nut-collapse-item-icon"
             style="transform: translateY(-50%);"
           >
             <svg
@@ -128,7 +128,7 @@ exports[`should match snapshot 1`] = `
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M128 349.867C93.867 332.8 34.133 341.333 8.533 384-8.533 418.133 0 477.867 42.667 503.467 179.2 588.8 315.733 665.6 443.733 750.933c42.667 25.6 93.867 25.6 136.534 0C716.8 665.6 853.333 588.8 981.333 503.467c42.667-25.6 51.2-76.8 25.6-119.467s-76.8-51.2-119.466-25.6C768 435.2 640 512 512 588.8 384 512 256 435.2 128 349.867"
+                d="M158.17 289.83a42.67 42.67 0 1 0-60.34 60.34l384 384a42.67 42.67 0 0 0 60.36 0l384-384a42.67 42.67 0 1 0-60.36-60.34L512 643.67 158.17 289.83z"
                 fill="currentColor"
                 fill-opacity="0.9"
               />
@@ -137,11 +137,11 @@ exports[`should match snapshot 1`] = `
         </div>
       </div>
       <div
-        class="nut-collapse-item__content"
+        class="nut-collapse-item-content"
         style="height: 0px;"
       >
         <div
-          class="nut-collapse-item__content-text"
+          class="nut-collapse-item-content-text"
         >
           京东“厂直优品计划”首推“政府优品馆”
         </div>

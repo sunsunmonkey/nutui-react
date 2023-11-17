@@ -219,7 +219,7 @@ export const Swipe = forwardRef<
       return (
         <div
           ref={side === 'left' ? leftWrapper : rightWrapper}
-          className={`${classPrefix}__${side}`}
+          className={`${classPrefix}-${side}`}
           onClick={(e) => handleOperate(e, side)}
         >
           {props[`${side}Action`]}
@@ -275,7 +275,7 @@ export const Swipe = forwardRef<
       onTouchEnd={(e) => onTouchEnd(e)}
       style={style}
     >
-      <div className={`${classPrefix}__wrapper`} style={wrapperStyle}>
+      <div className={`${classPrefix}-wrapper`} style={wrapperStyle}>
         {renderActionContent('left')}
         {children}
         {renderActionContent('right')}

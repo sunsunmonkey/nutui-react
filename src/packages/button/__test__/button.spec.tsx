@@ -58,6 +58,6 @@ test('should fireEvent correctly', () => {
 
   fireEvent.click(getByText('Click me'))
   expect(container.querySelector('.nut-button')).toHaveClass(
-    'nut-button--loading'
+    'nut-button-loading'
   )
 })

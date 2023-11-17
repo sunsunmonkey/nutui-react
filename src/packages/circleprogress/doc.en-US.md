@@ -165,10 +165,10 @@ const App = () => {
   }
   return (
     <>
-      <div className="demo__piece">
+      <div className="demo-piece">
         <CircleProgress percent={percent}>{percent}%</CircleProgress>
       </div>
-      <div className="demo__btn">
+      <div className="demo-btn">
         <Button type="primary" onClick={setReduceVal} style={{ marginRight: '10px' }}>
           reduce
         </Button>
