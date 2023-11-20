@@ -290,7 +290,7 @@ const FormDemo = () => {
           onFinish={(values) => submitSucceed(values)}
           footer={
             <>
-              <Button formType="submit" block type="primary">
+              <Button nativeType="submit" block type="primary">
                 {translated.submit}
               </Button>
             </>
